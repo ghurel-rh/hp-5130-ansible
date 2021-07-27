@@ -1,0 +1,5 @@
+- hosts: all
+  gather_facts: False
+  tasks:
+
+  - total.hpe.hpe_facts:

@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  gather_facts: yes
+  roles:
+    - ansible_network.cli_rm_builder.run
+  vars:
+    docstring: examples/docstrings/comware_manuinfo.yaml 
+    examples: examples/example/comware_manuinfo_example.txt
+    rm_dest: ../collections/ansible_collections/total/hpe/
+    resource: manuinfo
+    collection_org: total
+    collection_name: hpe

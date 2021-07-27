@@ -1,0 +1,8 @@
+module: comware_manuinfo
+short_description: 'Retrieve manufacturer info from HPE comware network device.'
+description: 'Retrieve manufacturer info from HPE comware network device.'
+version_added: 1.0.0
+author: Gaëtan Hurel
+notes:
+  - 'Tested against HP FlexNetwork 5130 Switch serie'
+options: {}
